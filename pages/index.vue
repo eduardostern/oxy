@@ -3,7 +3,7 @@
    <section class="section">
     <div class="container">
       <h1 class="title">
-        Oxygenix Medicina Hiperbaric
+        Oxygenix Medicina Hiperbarica
       </h1>
       <p class="subtitle">
         
