@@ -3,7 +3,7 @@
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <NuxtLink class="navbar-item" to="/">
-      <img src="/images/oxy-logo.png" alt="Oxygenix" width="112" height="28">
+      <img src="" alt="Oxygenix" width="112" height="28">
     </NuxtLink>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
