@@ -5,9 +5,9 @@
 <template>
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div @click="isOpen = false" class="navbar-brand">
+      <div class="navbar-brand">
         <NuxtLink class="navbar-item" to="/">
-          <img src="" alt="Oxygenix" width="112" height="28">
+          <img @click="isOpen = false" src="" alt="Oxygenix" width="112" height="28">
         </NuxtLink>
 
         <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
