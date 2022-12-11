@@ -1,9 +1,10 @@
 <template>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
+    <NuxtLink class="navbar-item" to="/">
+      <img src="/images/oxy-logo.png" alt="Oxygenix" width="112" height="28">
+    </NuxtLink>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -15,31 +16,46 @@
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
       <NuxtLink to="/" class="navbar-item">
-        Home
+        Clínica
       </NuxtLink>
+      <div class="navbar-item has-dropdown is-hoverable">
 
-      <NuxtLink to="/docs" class="navbar-item">
-        Documentation
-      </NuxtLink>
+      <a class="navbar-link">
+        Indicações
+      </a>
+
+      <div class="navbar-dropdown">
+          <NuxtLink to="/" class="navbar-item">
+            Pós-cirurgia
+          </NuxtLink>
+          <a class="navbar-item">
+            Diabetes
+          </a>
+          
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            Lesões Actínicas
+          </a>
+        </div>
+
+      </div>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          More
+          Mais
         </a>
 
         <div class="navbar-dropdown">
           <NuxtLink to="/about" class="navbar-item">
-            About
+            Sobre Nós
           </NuxtLink>
           <a class="navbar-item">
-            Jobs
+            Trabalhe Conosco
           </a>
-          <a class="navbar-item">
-            Contact
-          </a>
+          
           <hr class="navbar-divider">
           <a class="navbar-item">
-            Report an issue
+            Contato
           </a>
         </div>
       </div>
@@ -48,15 +64,14 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
+          <a class="button is-info">
+            <strong>Agendamento</strong>
           </a>
-          <a class="button is-light">
-            Log in
-          </a>
+          
         </div>
       </div>
     </div>
   </div>
 </nav>
+</div>
 </template>

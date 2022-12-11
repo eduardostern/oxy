@@ -1,12 +1,11 @@
 <template>
   <div>
-    <section class="section">
-     <div class="container">
-       <h1 class="title">
+       <p class="title">
         About
-       </h1>
-     </div>
-    </section>
+        </p>
+        <p class="subtitle">
+         Sobre a terapia Hiperbarica
+        </p>
   </div>
  </template>
      
