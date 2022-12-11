@@ -5,7 +5,7 @@
 <template>
   <div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
+      <div @click="isOpen = false" class="navbar-brand">
         <NuxtLink class="navbar-item" to="/">
           <img src="" alt="Oxygenix" width="112" height="28">
         </NuxtLink>
