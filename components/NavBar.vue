@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div>
+<div>
     <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <NuxtLink  @click="isOpen = false" class="navbar-item" to="./">
-          <img src="~/assets/oxy-logo-small.svg" alt="Oxygenix" width="112" height="28">
+          <img src="~/assets/oxy-logo-wide.png" style="max-height: 60px" alt="Oxygenix">
         </NuxtLink>
 
         <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -18,7 +18,7 @@
       </div>
 
       <div @click="isOpen = false" :class="{ 'is-active': isOpen }" class="navbar-menu">
-        <div class="navbar-start">
+        <div class="navbar-end">
           <NuxtLink to="/" class="navbar-item">
             Clínica
           </NuxtLink>
@@ -65,7 +65,6 @@
           </div>
         </div>
 
-        <div class="navbar-end">
           <div class="navbar-item">
             <div class="buttons">
               <a class="button is-info">
@@ -75,7 +74,6 @@
             </div>
           </div>
         </div>
-      </div>
     </nav>
-  </div>
+ </div>
 </template>
