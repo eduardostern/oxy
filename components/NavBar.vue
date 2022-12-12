@@ -4,10 +4,10 @@
 
 <template>
 <div>
-    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <NuxtLink  @click="isOpen = false" class="navbar-item" to="./">
-          <img src="~/assets/oxy-logo-wide.png" style="max-height: 60px" alt="Oxygenix">
+          <img src="~/assets/oxy-logo-small.png" style="max-height: 32px" alt="Oxygenix">
         </NuxtLink>
 
         <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -67,8 +67,8 @@
 
           <div class="navbar-item">
             <div class="buttons">
-              <a class="button is-info">
-                <strong>Agendamento</strong>
+              <a class="button is-warning">
+                Agendamento
               </a>
 
             </div>

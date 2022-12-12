@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <section class="hero is-info">
+    <section class="hero">
       <div class="hero-body"> 
         <NuxtPage />
       </div>
