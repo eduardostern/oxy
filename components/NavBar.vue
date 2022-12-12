@@ -4,13 +4,13 @@
 
 <template>
 <div>
-    <nav class="navbar is-fixed-top is-info" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <NuxtLink  @click="isOpen = false" class="navbar-item" to="./">
-          <img src="~/assets/oxy-logo-small.png" style="max-height: 32px" alt="Oxygenix">
+    <nav class="navbar is-fixed-top is-info"  role="navigation" aria-label="main navigation">
+      <div class="navbar-brand" >
+        <NuxtLink  @click="isOpen = false" class="navbar-item"  to="./">
+          <img src="~/assets/oxy-logo-small.png" style="max-height: 64px" alt="Oxygenix">
         </NuxtLink>
 
-        <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" style="padding: 38px" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
