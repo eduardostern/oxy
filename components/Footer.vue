@@ -1,7 +1,7 @@
 <template>
     <footer class="footer is-info has-background-info">
         <!-- Copyright symbol of company -->
-        <img src="~/assets/oxy-logo-wide.png" style="max-height: 60px" alt="Oxygenix">
+        <img src="~/assets/oxy-logo-small-green.png" style="max-height: 60px" alt="Oxygenix">
   
   <!-- Three columns created using columns class of Bulma -->
   <div class="columns">

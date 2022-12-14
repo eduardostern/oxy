@@ -7,7 +7,7 @@
     <nav class="navbar is-fixed-top is-info"  role="navigation" aria-label="main navigation">
       <div class="navbar-brand" >
         <NuxtLink  @click="isOpen = false" class="navbar-item"  to="./">
-          <img src="~/assets/oxy-logo-small.png" style="max-height: 64px" alt="Oxygenix">
+          <img src="~/assets/oxy-logo-small-green.png" style="max-height: 64px" alt="Oxygenix">
         </NuxtLink>
 
         <NuxtLink @click="isOpen = !isOpen" role="button" class="navbar-burger" style="padding: 38px" aria-label="menu" aria-expanded="false">
